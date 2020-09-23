@@ -181,16 +181,6 @@ header{
     z-index: 0;
   }
   
-  
-  /* div.waves{
-    width: 100%;
-    bottom: 0;
-    height: 5000%;
-    position: absolute;
-    z-index: 99;
-  }
-   */
-   
 
 #bodyy {
   background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
