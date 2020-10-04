@@ -122,7 +122,7 @@ header{
 }
 
 /* ==================== second page content ======= */
-#secondpage{
+/* #secondpage{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -191,20 +191,20 @@ header{
     width: 100%;
     height: 150px;
     background: rgb(205,185,247); 
-    background: -moz-linear-gradient(left,  rgba(205,185,247,1) 0%, rgba(156,113,247,1) 47%, rgba(130,76,247,1) 78%, rgba(130,76,247,1) 78%, rgba(125,69,247,1) 98%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(205,185,247,1) 0%,rgba(156,113,247,1) 47%,rgba(130,76,247,1) 78%,rgba(130,76,247,1) 78%,rgba(125,69,247,1) 98%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(205,185,247,1) 0%,rgba(156,113,247,1) 47%,rgba(130,76,247,1) 78%,rgba(130,76,247,1) 78%,rgba(125,69,247,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdb9f7', endColorstr='#7d45f7',GradientType=1 ); /* IE6-9 */
+    background: -moz-linear-gradient(left,  rgba(205,185,247,1) 0%, rgba(156,113,247,1) 47%, rgba(130,76,247,1) 78%, rgba(130,76,247,1) 78%, rgba(125,69,247,1) 98%); 
+    background: -webkit-linear-gradient(left,  rgba(205,185,247,1) 0%,rgba(156,113,247,1) 47%,rgba(130,76,247,1) 78%,rgba(130,76,247,1) 78%,rgba(125,69,247,1) 98%); 
+    background: linear-gradient(to right,  rgba(205,185,247,1) 0%,rgba(156,113,247,1) 47%,rgba(130,76,247,1) 78%,rgba(130,76,247,1) 78%,rgba(125,69,247,1) 98%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdb9f7', endColorstr='#7d45f7',GradientType=1 ); 
     position: absolute;
     bottom: 0;
     z-index: 0;
-  }
+  } */
   
 /* ================================== wave ========================== */
 
 
 /* -============ */
-#bodies{
+/* #bodies{
   padding: 0;
   margin:0;
 }
@@ -271,10 +271,10 @@ header{
   padding: 0; 
   margin: 0 auto; 
   position: relative;
-}
+} */
 
 /* ============================================ */
-#firstpage-titile{
+/* #firstpage-titile{
   color: rgb(47, 0, 255); 
   font-family: "Courier";
   font-size: 40px;
@@ -346,7 +346,7 @@ header{
                  0 9px 0 #CCC,
                  0 50px 25px rgba(0, 0, 0, .2);
   }
-}
+} */
 
 
 
@@ -396,9 +396,6 @@ header{
   width: 60%;
   position: absolute;
   font-size: 25px;
-  /* margin-top: 230px;
-  margin-left: 150px;
-  line-height: 33px; */
   color: #ffffff;
 }
 #diamond{
@@ -419,7 +416,6 @@ header{
 .banner{
   width: 100%;
   height: 150px;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cdb9f7+0,9c71f7+47,824cf7+78,824cf7+78,7d45f7+98 */
   background: rgb(205,185,247); /* Old browsers */
   background: -moz-linear-gradient(left,  rgba(205,185,247,1) 0%, rgba(156,113,247,1) 47%, rgba(130,76,247,1) 78%, rgba(130,76,247,1) 78%, rgba(125,69,247,1) 98%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left,  rgba(205,185,247,1) 0%,rgba(156,113,247,1) 47%,rgba(130,76,247,1) 78%,rgba(130,76,247,1) 78%,rgba(125,69,247,1) 98%); /* Chrome10-25,Safari5.1-6 */
@@ -428,4 +424,58 @@ header{
   position: absolute;
   bottom: 0;
   z-index: 0;
+}
+@media screen and (max-width: 1000px) {
+  nav{ 
+      display: none;
+  }
+
+  .call-to-action{
+      display: none;
+  }
+  #mobile-nav{
+      display: flex;
+  }
+  header{
+      position: fixed;
+  }
+  #mobile-items{
+      position: fixed;
+  }
+  #wave-content h1{
+      width: 80%;
+      line-height: 35px;
+      font-size: 27px;
+  }
+  .section-title{
+      width: 100%;
+  }
+  .section-title h1{
+      width: 80%;
+      font-size: 30px;
+  }
+  #product-details{
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      padding: 0 5%;
+  }
+  #product-img{
+      width: 100%;
+      padding: 0;
+  }
+  #about-product{
+      width: 100%;
+  }
+  #diamond{
+      width: 80%;
+      margin: 0 auto;
+      right: 0;
+      position: relative;
+      margin-bottom: 40px;
+  }
+  #diamond p{
+      text-align: center;
+      font-size: 3vw;
+  }
 }
