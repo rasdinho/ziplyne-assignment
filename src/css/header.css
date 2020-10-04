@@ -166,10 +166,11 @@ header{
 }
 #wave {
   position: relative;
-    height: 600px;
+    height: 80px;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 91%;
+    transform: scaleY(-1); /*this one to rotate the wave upside down*/
 }
 #wave-content{
   background: rgba(154, 96, 242,.9);
