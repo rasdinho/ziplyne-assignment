@@ -47,7 +47,7 @@ class ProductSection extends Component {
         return (
             <div>
                 <section id="product">
-                    <div data-aos="fade-in"className="section-title">
+                    <div data-aos="fade-up" className="section-title">
                         <h1>Lorem Ipsum Dolor Lorem Ipsum Dolor Amet.</h1>
                     </div>
                     <div id="product-details">
