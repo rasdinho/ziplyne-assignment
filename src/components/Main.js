@@ -3,7 +3,16 @@ import Header from './Header';
 
 
 class Main extends Component {
-   
+    state = {
+        clickToggleButton: false
+    }
+
+
+    controleToggleBtn = () => {
+        this.setState({
+            clickToggleButton: !this.state.clickToggleButton
+        })
+    }
 
 
 
