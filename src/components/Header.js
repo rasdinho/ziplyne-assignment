@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import '../css/header.css';
 
-const Header = ({clickToggleButton, controleToggleBtn}) => {
+const Header = ({clickToggleButton, controleToggleBtn}) => { //for when a user is trying to use a toggle btn
         return (
 
             <header>
@@ -29,14 +29,13 @@ const Header = ({clickToggleButton, controleToggleBtn}) => {
                         <div className="icon-line"></div>
                     </div>
                     
-                    {clickToggleButton? 
+                    {clickToggleButton? //if this user click the toggle btn it will display the side menu
                     <NavBar />
                     : null    
                     }                    
                 </div>
         </header>
         );
-    // }
 }
 
 export default Header;
