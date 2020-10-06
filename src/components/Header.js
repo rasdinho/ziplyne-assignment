@@ -1,20 +1,42 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavBar from './NavBar';
-import Logo from '../images/WithDropShadow.png';
 import '../css/header.css';
 
-class Header extends Component {
-    render() {
+const Header = ({clickToggleButton, controleToggleBtn}) => {
         return (
-            <header className="container-he">
-                <div id="zip-logo">
-                    <img className="logo" src={Logo} alt='logo'/>
-                </div>
 
-                <NavBar />
-            </header>
+            <header>
+                <div id="ziplyne-logo">
+                    <img src={require("../images/WithDropShadow.png")} alt=""/>
+                </div>
+                <nav data-aos="fade-down">
+                    <a href="/product">Product</a>
+                    <a href="/solution">Solution</a>
+                    <a href='/pricing'>Pricing</a>
+                    <a href="/stories">Customer Stories</a>
+                    <a href="/resources">Resources</a>
+                </nav>
+                <div className="call-to-action">
+                    <button className="purple">Request A Demo</button>
+                    <div className="join-icon">
+                        <i className="fas fa-sign-in-alt"></i>
+                    </div>
+                </div>
+                <div id="mobile-nav" data-aos="fade-in">
+                    <div id="menu-icon" onClick={controleToggleBtn}>
+                        <div className="icon-line"></div>
+                        <div className="icon-line"></div>
+                        <div className="icon-line"></div>
+                    </div>
+                    
+                    {clickToggleButton? 
+                    <NavBar />
+                    : null    
+                    }                    
+                </div>
+        </header>
         );
-    }
+    // }
 }
 
 export default Header;
