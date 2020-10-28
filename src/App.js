@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import HomePage from './components/HomePage';
 import ProductSection from './components/ProductSection';
-import Footer from './components/ThirdPage'
+import ThirdPage from './components/ThirdPage'
 
 
 
@@ -13,7 +13,7 @@ function App() {
       
       <HomePage />
       <ProductSection />
-      <Footer />
+      <ThirdPage />
 
     </div>
   );

@@ -1,40 +1,47 @@
 import React from 'react';
+import './ThirdPage.scss'
 // import ReactDOM from 'react'
 
-// class Footer extends Component {
-//     render() {
-//         return (
-//             <div>
-//                 <h1>should work now </h1>
-//             </div>
-//         );
-//     }
-// }
+// class ThirdPage extends React.Component {
+function ThirdPage() {
+        return (
+<React.Fragment>
 
-// export default Footer;
+      <div id="bodyy3">
+              <main>
+                <section class="background">
+                </section>
 
-const img1 = "https://s3.eu-central-1.amazonaws.com/test.18feb.web.v2/18feb_v2_pic1.jpg";
-
-
-class Footer extends React.Component {
-  render() {
-    return(
-      <div className="MainPage">
-        <div className="Header">
-          <div className="left-container">18feb</div>
-          <div className="right-container">
-            <span>New Collection</span>
-            <span>Women</span>
-            <span>Men</span>
-            <span>Kids</span>
-          </div>
-        </div>
-        <img src={img1} alt="testpic" />
+                      <section class="lp">
+                              <div class="lp__nav">
+                                  <a href="." class="lp__nav__item"><img src="https://cdn.pixabay.com/photo/2014/04/03/00/40/bird-309064_1280.png" alt="."/></a>
+                                  <a href="." class="lp__nav__item"><i class="fab fa-facebook-f"></i></a>
+                                  <a href="." class="lp__nav__item"><i class="fab fa-twitter"></i></a>
+                                  <a href="." class="lp__nav__item"><i class="fab fa-vimeo-v"></i></a>
+                              </div>
+                        
+                              <div class="lp__title">
+                                <h1>The <br></br> Symmetry</h1>
+                              </div>
+                              
+                        
+                              <div class="lp__cta">
+                                <a href=".">Subscribe</a>
+                              </div>
+                        
+                      </section>
+                </main>
+                
       </div>
-    );
-  }
+
+</React.Fragment>
+        );
 }
- export default Footer;
+
+export default ThirdPage;
+
+
+
 
 
 
