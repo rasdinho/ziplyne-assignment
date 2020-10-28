@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import HomePage from './components/HomePage';
 import ProductSection from './components/ProductSection';
-import Footer from './components/Footer'
+import Footer from './components/ThirdPage'
 
 
 
