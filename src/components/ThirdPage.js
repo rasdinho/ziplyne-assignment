@@ -21,7 +21,7 @@ function ThirdPage() {
                               </div>
                         
                               <div className="lp__title">
-                                <h1 id="page3">The <br></br> Ziplyne</h1>
+                                <h1 id="page3" data-aos="fade-up">The <br></br> Ziplyne</h1>
                               </div>
                               
                               <div className="lp__cta">
