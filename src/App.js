@@ -3,7 +3,8 @@ import React from 'react';
 import './App.css';
 import HomePage from './components/HomePage';
 import ProductSection from './components/ProductSection';
-import ThirdPage from './components/ThirdPage'
+import ThirdPage from './components/ThirdPage';
+import FourthPage from './components/FourthPage'
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <HomePage />
       <ProductSection />
       <ThirdPage />
+      <FourthPage />
 
     </div>
   );
