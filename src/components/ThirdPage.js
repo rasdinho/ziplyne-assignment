@@ -14,7 +14,7 @@ function ThirdPage() {
 
                       <section className="lp">
                               <div className="lp__nav">
-                                  <a href="." className="lp__nav__item"><img id="img3"src="https://cdn.pixabay.com/photo/2014/04/03/00/40/bird-309064_1280.png" alt="."/></a>
+                                  <a  data-aos="fade-up" href="." className="lp__nav__item"><img id="img3"src="https://cdn.pixabay.com/photo/2014/04/03/00/40/bird-309064_1280.png" alt="."/></a>
                                   <a href="." className="lp__nav__item"><i className="fab fa-facebook-f"></i></a>
                                   <a href="." className="lp__nav__item"><i className="fab fa-twitter"></i></a>
                                   <a href="." className="lp__nav__item"><i className="fab fa-vimeo-v"></i></a>
