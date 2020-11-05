@@ -63,6 +63,35 @@ class FourthPage extends Component {
         </div>
     </section>
 
+    <footer>
+        <div className="footer">
+            <div className="copright">
+                <p>©Lorem ipsum dolor</p>
+            </div>
+            <div className="footerNav">
+                <ul>
+                    <li><a href=".">lorem</a></li>
+                    <li><a href=".">ipsum</a></li>
+                    <li><a href=".">dolor</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </>
