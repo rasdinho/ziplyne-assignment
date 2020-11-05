@@ -31,21 +31,37 @@ class FourthPage extends Component {
         </div>
     </header>
 
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <section>
+        <div className="section1">
+            <div className="card">
+                <h4>lorem</h4>
+                <div className="imgBox">
+                    <img href="." src="https://dribbble.s3.amazonaws.com/users/322/screenshots/872485/coldchase.jpg" alt=""/>
+                </div>
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum, dolor sit amet consect adipisicing elit.
+                     Aliquam blanditiis dolor eum minus, labore</p>
+            </div>
+            <div className="card">
+                <h4>lorem</h4>
+                <div className="imgBox">
+                    <img href="." src="https://dribbble.s3.amazonaws.com/users/322/screenshots/980517/icehut_sm.jpg" alt=""/>
+                </div>
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum, dolor sit amet consect adipisicing elit.
+                     Aliquam blanditiis dolor eum minus, labore</p>
+            </div>
+            <div className="card">
+                <h4>lorem</h4>
+                <div className="imgBox">
+                    <img href="." src="https://dribbble.s3.amazonaws.com/users/322/screenshots/943660/hq_sm.jpg" alt=""/>
+                </div>
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum, dolor sit amet consect adipisicing elit.
+                     Aliquam blanditiis dolor eum minus, labore</p>
+            </div>
+        </div>
+    </section>
 
 
 
