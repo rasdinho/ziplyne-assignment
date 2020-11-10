@@ -75,3 +75,29 @@
     background-color .5s ease,
                 left .5s ease;
 }
+
+#fourthA:hover::after{
+    width: 100%;
+    left: 0;
+    cursor: pointer;
+    background: #fff;
+}
+.line111{
+    font-size: 1.6em;
+    opacity: 0.4;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+}
+.line222{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 10px;
+    font-weight: 100;
+}
+.fourthbtn{
+    padding: 30px;
+}
+
+
+
