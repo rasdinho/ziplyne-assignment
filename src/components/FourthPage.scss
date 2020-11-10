@@ -98,6 +98,25 @@
 .fourthbtn{
     padding: 30px;
 }
-
+#fourthbutton{
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: none;
+    background-position: center;
+    transition: background 0.8s;
+}
+#fourthbutton:hover{
+    cursor: pointer;
+    background: #526f86 radial-gradient(circle, transparent 1%, #657b8d 1%) center/15000%;
+}
+#fourthbutton:active{
+    background-color: #526f86;
+  background-size: 100%;
+  transition: background 0s;
+}
 
 
