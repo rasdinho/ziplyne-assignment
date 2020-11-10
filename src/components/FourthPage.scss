@@ -48,3 +48,30 @@
     padding-top: 25px;
 
 }
+
+#fourthUl #fourthli{
+    list-style: none;
+    display: inline;
+   
+}
+#fourthA{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-left: 10px;
+    position: relative;
+}
+#fourthA::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    left: 50%;
+    height: 1px;
+    bottom: -3px;
+    background-color:transparent;
+    transition: width .5s ease,
+    background-color .5s ease,
+                left .5s ease;
+}
