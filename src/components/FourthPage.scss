@@ -150,4 +150,16 @@
     background-size: cover;
     border-radius: 5px;
 }
-
+.card h4, .card h3{
+    text-transform: uppercase;
+    opacity: 0.6;
+    padding-bottom: 20px;
+    font-size: 0.7em;
+}
+.card h3{
+    font-size: 0.8em;
+    padding-top: 20px;
+}
+.card p{
+    font-size: 0.7em;
+}
