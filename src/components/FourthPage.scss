@@ -163,3 +163,44 @@
 .card p{
     font-size: 0.7em;
 }
+footer{
+    background-color: #293F51;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    width: 56%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 0 auto;
+    font-size: 0.8em;
+    position: relative;
+}
+.copright{
+    color: #fff;
+    opacity: 0.6;
+    float: left;
+}
+.footerNav {
+    position: absolute;
+    right: 0;  
+}
+
+@media screen and (max-width:800px){
+    .section1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  .top .logo{
+    font-size:1.8em;
+  }
+  .line1{
+    font-size: 1.2em;
+  }
+  .line2{
+    font-size: 1em
+  }
+  .top .sideMenu{
+    padding-top:55px
+  }
+}
