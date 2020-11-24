@@ -39,3 +39,29 @@
     background: url('https://i.ibb.co/1RS1dqC/section-b.jpg') no-repeat bottom center/cover;
     height: 600px;
 }
+.section-b-inner {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 0;
+}
+
+#fifthpage-h3 {
+    font-size: 2rem;
+}
+
+#fifthpage-h2 {
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+#fifthpage-p2{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
