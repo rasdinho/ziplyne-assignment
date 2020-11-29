@@ -6,6 +6,7 @@ import ProductSection from './components/ProductSection';
 import ThirdPage from './components/ThirdPage';
 import FourthPage from './components/FourthPage';
 import FifthPage from './components/FifthPage';
+import SixthPage from './components/SixthPage';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
+      <SixthPage />
 
     </div>
   );

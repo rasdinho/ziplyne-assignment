@@ -9,7 +9,7 @@ class FifthPage extends Component {
             <section className="section-a-fifthpage">
                     <div className="fifthpage-container">
                         <div>
-                                <h1 id="fourth-page-h1-4">The headphones of the future.</h1>
+                                <h1 id="fourth-page-h1-4">The Ziplyne of the future.</h1>
                                 <p id="fifthpage-p">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                                     repudiandae rerum libero ipsum asperiores omnis mollitia, nostrum
@@ -24,8 +24,8 @@ class FifthPage extends Component {
             <section id="about" className="section-b">
                     <div className="overlay">
                         <div className="section-b-inner py-5">
-                                <h3  id="fifthpage-h3" className="text-2">Loud & Clear</h3>
-                                <h2  id="fifthpage-h2" className="text-5 mt-1">People Aren't Hearing All the Music</h2>
+                                <h3  id="fifthpage-h3" className="text-2">Products & Services</h3>
+                                <h2  id="fifthpage-h2" className="text-5 mt-1">People Aren't Hearing It All</h2>
                                 <p id="fifthpage-p2" className="mt-1">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
                                     repudiandae laboriosam quia, error tempore porro ducimus voluptate
@@ -37,11 +37,11 @@ class FifthPage extends Component {
     {/*================================================================================================================*/}
             <section className="section-c">
                     <div className="gallery">
-                        <a href="https://i.ibb.co/CHLBZnp/gal2323.jpg" className="big"><img src="https://i.ibb.co/CHLBZnp/gal2323.jpg" alt=""/></a>
+                        <a href="https://c.stocksy.com/a/miv000/z9/221884.jpg" className="big"><img src="https://c.stocksy.com/a/miv000/z9/221884.jpg" alt=""/></a>
 
-                        <a href="https://i.ibb.co/4pBbhfY/gal39834.jpg" className="big"><img src="https://i.ibb.co/4pBbhfY/gal39834.jpg" alt=""/></a>
+                        <a href="https://www.pngitem.com/pimgs/m/122-1221996_woman-wearing-blue-colored-neon-100-bluetooth-headphone.png" className="big"><img src="https://www.pngitem.com/pimgs/m/122-1221996_woman-wearing-blue-colored-neon-100-bluetooth-headphone.png" alt=""/></a>
 
-                        <a href="https://i.ibb.co/xSnHP7g/gal43884.jpg" className="big"><img src="https://i.ibb.co/xSnHP7g/gal43884.jpg" alt=""/></a>
+                        <a href="https://openai.com/content/images/2020/04/2x-no-mark-1.jpg" className="big"><img src="https://openai.com/content/images/2020/04/2x-no-mark-1.jpg" alt=""/></a>
 
                         <a href="https://i.ibb.co/QN6Bnrb/gal4958.jpg" className="big"><img src="https://i.ibb.co/QN6Bnrb/gal4958.jpg" alt=""/></a>
 
