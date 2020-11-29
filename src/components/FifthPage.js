@@ -9,7 +9,7 @@ class FifthPage extends Component {
             <section className="section-a-fifthpage">
                     <div className="fifthpage-container">
                         <div>
-                                <h1 id="fourth-page-h1-4">The Ziplyne of the future.</h1>
+                                <h1 id="fourth-page-h1-4" data-aos="flip-left">The Ziplyne of the future.</h1>
                                 <p id="fifthpage-p">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                                     repudiandae rerum libero ipsum asperiores omnis mollitia, nostrum
@@ -24,8 +24,8 @@ class FifthPage extends Component {
             <section id="about" className="section-b">
                     <div className="overlay">
                         <div className="section-b-inner py-5">
-                                <h3  id="fifthpage-h3" className="text-2">Products & Services</h3>
-                                <h2  id="fifthpage-h2" className="text-5 mt-1">People Aren't Hearing It All</h2>
+                                <h3  id="fifthpage-h3" className="text-2" data-aos="flip-down">Products & Services</h3>
+                                <h2  id="fifthpage-h2" className="text-5 mt-1" data-aos="flip-up">People Aren't Hearing It All</h2>
                                 <p id="fifthpage-p2" className="mt-1">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
                                     repudiandae laboriosam quia, error tempore porro ducimus voluptate

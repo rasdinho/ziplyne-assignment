@@ -8,8 +8,8 @@ class FourthPage extends Component {
 <section className="headerrr">
         <div className="containerry">
             <div className="toppy">
-                <div className="logooo">
-                    <span>Lorem <br/>Ipsum</span>
+                <div className="logooo" data-aos="flip-right">
+                    <span>Zip <br/>Lyne</span>
                 </div>
                 <div className="sideMenuuu">
                     <span className="captionnn">Lorem ipsum dolor.</span>
@@ -34,7 +34,7 @@ class FourthPage extends Component {
             <div className="card">
                 <h4>lorem</h4>
                 <div className="imgBox">
-                    <img href="." src="https://dribbble.s3.amazonaws.com/users/322/screenshots/872485/coldchase.jpg" alt="."/>
+                    <img data-aos="flip-up" href="." src="https://dribbble.s3.amazonaws.com/users/322/screenshots/872485/coldchase.jpg" alt="."/>
                 </div>
                 <h3>Lorem ipsum dolor</h3>
                 <p>Lorem ipsum, dolor sit amet consect adipisicing elit.
@@ -43,7 +43,7 @@ class FourthPage extends Component {
             <div className="card">
                 <h4>lorem</h4>
                 <div className="imgBox">
-                    <img href="." src="https://dribbble.s3.amazonaws.com/users/322/screenshots/980517/icehut_sm.jpg" alt="."/>
+                    <img data-aos="flip-up" href="." src="https://dribbble.s3.amazonaws.com/users/322/screenshots/980517/icehut_sm.jpg" alt="."/>
                 </div>
                 <h3>Lorem ipsum dolor</h3>
                 <p>Lorem ipsum, dolor sit amet consect adipisicing elit.
@@ -52,7 +52,7 @@ class FourthPage extends Component {
             <div className="card">
                 <h4>lorem</h4>
                 <div className="imgBox">
-                    <img href="." src="https://dribbble.s3.amazonaws.com/users/322/screenshots/943660/hq_sm.jpg" alt="."/>
+                    <img data-aos="flip-up" href="." src="https://dribbble.s3.amazonaws.com/users/322/screenshots/943660/hq_sm.jpg" alt="."/>
                 </div>
                 <h3>Lorem ipsum dolor</h3>
                 <p>Lorem ipsum, dolor sit amet consect adipisicing elit.
